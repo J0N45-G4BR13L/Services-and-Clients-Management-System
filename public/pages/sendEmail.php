@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if(!$mail->send()) {
             // Se houver um erro no envio do e-mail, exibe uma mensagem de erro
             echo 'Message could not be sent.';
-            echo 'Mailer Error: ' . $mail->ErrorInfo;
+            echo 'Mailer Error: ' . $mail->ErrorInfo . 'hah';
         } else {
             // Se o e-mail for enviado com sucesso, exibe uma mensagem de sucesso
             echo 'Message has been sent';

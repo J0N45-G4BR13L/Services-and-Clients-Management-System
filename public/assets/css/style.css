@@ -21,7 +21,7 @@ body, ul, li, h1, h2, h3, a, span, p {
     letter-spacing: -.02em;
 }
 ::-webkit-scrollbar {
-    width:5px;
+    width:10px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: #d3d3d3;
